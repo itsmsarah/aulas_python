@@ -26,3 +26,26 @@ range ( inicio,fim ,passo)
 
 # tbm pode ir de tras pra frente, caso eu quero que comece no 10 e vai ate o 2 , de 2 em2
 #basta colocar list(range(10, 2, -2)), ou seja , o 2 começou a ser o final da lista
+
+
+# ---PENTENCIMENTO---
+
+#posso perguntar se por exemplo 2 está em inteiros:
+# 2 in inteiros , e vai sair True pq é vdd
+# ou coolocar, -2 not in inteiros , oq vai ser vdd pq -2 não esta na lista inteiros
+
+
+ # ---DESEMPACOTAMENTO---
+
+#  é vc desembrulhar uma lista já existente
+# por exemplo, print(inteiros) vai sair [1,2 ,3,91]
+#mas se vc quiser desempacotar vai print(*inteiros) vai sair 1 2 3 91
+
+#  >>> inteiros
+# [1, 2, 3, 91]
+# >>> a,b,c,d = inteiros
+# >>> a
+# 1
+
+
+
